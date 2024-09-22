@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function HomeNote() {
   return (
     <div className="flex flex-col justify-center text-primaryText 
