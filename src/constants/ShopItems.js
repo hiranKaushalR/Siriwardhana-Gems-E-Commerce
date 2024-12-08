@@ -34,7 +34,7 @@ export const shopItems = [
     clarity: "84",
     points: 0,
     dimension: { length: 5, width: 5, height: 5 },
-    isCertified: true,
+    isCertified: true,  
     certficate: "on demand",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum!",
@@ -53,7 +53,7 @@ export const shopItems = [
     isCertified: true,
     certficate: "on demand",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum! ",
   },
   {
     id: 3,

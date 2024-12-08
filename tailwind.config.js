@@ -7,6 +7,10 @@ export default {
     extend: {
       fontFamily: {
         primary: ["Poppins", "sans-serif"],
+        productShowOff: ["IBM Plex Serif", "serif"],
+        secondary: ["Noto Serif", "serif"],
+        tertiary: ["Poppins", "sans-serif"],
+        domine: ["Domine", "serif"],
       },
       colors: {
         primary: "#fef7ec",

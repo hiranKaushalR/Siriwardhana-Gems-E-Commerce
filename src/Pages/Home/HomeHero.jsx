@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Sale } from "../../assets";
 import { ShopContext } from "../../App";
+import { Link } from "react-router-dom";
 
 function HomeHero() {
   const { shopItems, setShopItems } = useContext(ShopContext);
@@ -84,6 +85,7 @@ function HomeHero() {
             </div>
           </div>
           {topTwoItemInHero.map((item) => (
+            <Link to={`/gemstones/${item.id}`}>
             <div
               key={item.id}
               className="flex flex-col justify-center gap-5 items-start lg:w-[400px] h-[120px] bg-secondary rounded-xl cursor-pointer"
@@ -104,6 +106,7 @@ function HomeHero() {
                 />
               </div>
             </div>
+            </Link>
           ))}
         </div>
       </div>

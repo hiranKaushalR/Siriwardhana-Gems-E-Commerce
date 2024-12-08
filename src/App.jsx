@@ -7,6 +7,7 @@ import GemstoneCanvas from "./Pages/Gemstones/GemstoneCanvas";
 import GalleryCanvas from "./Pages/Gallery/GalleryCanvas";
 import ContactCanvas from "./Pages/Contact/ContactCanvas";
 import AboutCanvas from "./Pages/About/AboutCanvas";
+import ProductCanvas from "./Pages/Product/ProductCanvas";
 import { shopItems as ShopItemsFromJSON } from "./constants/ShopItems";
 import "./App.scss";
 
@@ -19,7 +20,6 @@ function App() {
     setShopItems(ShopItemsFromJSON);
   });
 
-  console.log(shopItems);
   return (
    <ShopContext.Provider value={{ shopItems, setShopItems }}>
      <BrowserRouter>
@@ -31,6 +31,7 @@ function App() {
           <Route path="/gallery" element={<GalleryCanvas />} />
           <Route path="/contact" element={<ContactCanvas />} />
           <Route path="/about" element={<AboutCanvas />} />
+          <Route path="/gemstones/:id" element={<ProductCanvas />} /> 
         </Route>
       </Routes>
     </BrowserRouter>

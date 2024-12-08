@@ -15,6 +15,8 @@ import Payment from "./payment.svg";
 import Privacy from "./privacy.svg";
 import Return from "./return.svg";
 import Sale from "../assets/other-images/sale.png";
+import backArrow from "../assets/other-images/back-arrow.svg";
+import gemCertificate from "../assets/other-images/gem-certificate.png";
 
 export {
   logo,
@@ -33,4 +35,6 @@ export {
   Privacy,
   Return,
   Sale,
+  backArrow,
+  gemCertificate
 };

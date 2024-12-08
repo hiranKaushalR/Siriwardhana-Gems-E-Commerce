@@ -1,5 +1,6 @@
 import React, { useState, useContext, useEffect, useMemo } from "react";
 import { ShopContext } from "../../App";
+import { Link } from "react-router-dom";
 
 function HomeProducts() {
   const { shopItems, setShopItems } = useContext(ShopContext);
@@ -175,14 +176,16 @@ function HomeProducts() {
       </div>
       <div className="shop-items-in-home-page grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 sm:gap-3 mx-auto">
         {displayedItems.map((item, index) => (
-          <div key={index}>
-            <img
-              src={item.image[0]}
-              alt=""
-              className="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] rounded-md cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-[1.02] object-cover"
-            />
-            <p className="text-[12px]">{item.type}</p>
-          </div>
+          <Link to={`/gemstones/${item.id}`} key={index}>
+            <div key={index}>
+              <img
+                src={item.image[0]}
+                alt=""
+                className="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] rounded-md cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-[1.02] object-cover"
+              />
+              <p className="text-[12px]">{item.type}</p>
+            </div>
+          </Link>
         ))}
       </div>
     </div>
