@@ -11,12 +11,12 @@ function ProductDetails(props) {
   return (
     <div className="flex flex-col md:flex-row gap-3 my-8 mx-1">
       <div className="images flex flex-col gap-3 ">
-        <div className="w-[340px] flex flex-col m-auto">
+        <div className="w-[90%] xsm:w-[340px] flex flex-col m-auto">
           <div className="relative">
             {/* Product Image */}
             <img
               src={product.image[handleSelectedImage]}
-              className="h-[300px] w-[340px] object-cover rounded-md"
+              className="w-[90%] h-auto xsm:h-[300px] xsm:w-[340px] m-auto object-cover rounded-md"
               alt=""
             />
             {/* Is Certified PNG */}
@@ -24,7 +24,7 @@ function ProductDetails(props) {
               <img
                 src={gemCertificate}
                 alt=""
-                className="w-10 h-10 absolute top-2 left-2 pointer-events-none"
+                className="w-5 xsm:w-10 h-5 xsm:h-10 absolute top-3 xsm:top-2 left-6 xsm:left-2 pointer-events-none"
               />
             )}
           </div>
@@ -36,7 +36,7 @@ function ProductDetails(props) {
                 key={index}
                 src={image}
                 alt={product.name}
-                className={`w-[70px] h-[70px] object-cover cursor-pointer rounded-sm  ${
+                className={`w-[50px] xsm:w-[70px] h-[50px] xsm:h-[70px] object-cover cursor-pointer rounded-sm  ${
                   index === handleSelectedImage
                     ? "border-4 border-secondaryText border-rounded-sm"
                     : ""
@@ -47,7 +47,7 @@ function ProductDetails(props) {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-2 w-1/2 max-w-[500px]">
+      <div className="flex flex-col gap-2 sm:w-1/2 max-w-[500px] m-auto">
         <p className="text-sm text-[#7E7E7E] hover:text-[#575353] cursor-default font-semibold tracking-wider">
           {product.type}
         </p>
@@ -109,7 +109,7 @@ function ProductDetails(props) {
         </div>
         <div>
           <button className="bg-secondaryText text-white py-1 px-4 rounded-md font-bold tracking-wider">
-            Buy Now
+            Go To Purchase
           </button>
         </div>
       </div>

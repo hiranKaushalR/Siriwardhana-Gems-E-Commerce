@@ -19,6 +19,9 @@ export default {
         primaryText: "#2c3e50",
         secondaryText: "#d4af37",
       },
+      screens: {
+        xsm: "375px",
+      },
     },
   },
   plugins: [flowbite.plugin()],
