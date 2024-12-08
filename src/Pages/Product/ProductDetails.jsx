@@ -51,7 +51,7 @@ function ProductDetails(props) {
         <p className="text-sm text-[#7E7E7E] hover:text-[#575353] cursor-default font-semibold tracking-wider">
           {product.type}
         </p>
-        <h1 className="text-3xl tracking-widest font-Bold  border-b-2">
+        <h1 className="text-3xl tracking-wide font-Bold  border-b-2">
           {product.name}
         </h1>
 

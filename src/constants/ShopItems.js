@@ -34,7 +34,8 @@ export const shopItems = [
     clarity: "84",
     points: 0,
     dimension: { length: 5, width: 5, height: 5 },
-    isCertified: true,  
+    isCertified: true,
+    stock: 4,  
     certficate: "on demand",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum!",
@@ -51,6 +52,7 @@ export const shopItems = [
     points: 0,
     dimension: { length: 5, width: 5, height: 5 },
     isCertified: true,
+    stock: 2,
     certficate: "on demand",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum! ",
@@ -67,6 +69,7 @@ export const shopItems = [
     points: 0,
     dimension: { length: 5, width: 5, height: 5 },
     isCertified: true,
+    stock: 4,
     certficate: "on demand",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum!",
@@ -83,6 +86,7 @@ export const shopItems = [
     points: 0,
     dimension: { length: 5, width: 5, height: 5 },
     isCertified: true,
+    stock: 3,
     certficate: "on demand",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum!",
@@ -99,6 +103,7 @@ export const shopItems = [
     points: 0,
     dimension: { length: 5, width: 5, height: 5 },
     isCertified: true,
+    stock: 1,
     certficate: "on demand",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum!",
@@ -116,6 +121,7 @@ export const shopItems = [
     points: 0,
     dimension: { length: 5, width: 5, height: 5 },
     isCertified: true,
+    stock: 9,
     certficate: "on demand",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum!",
@@ -132,6 +138,7 @@ export const shopItems = [
     points: 0,
     dimension: { length: 5, width: 5, height: 5 },
     isCertified: true,
+    stock: 2,
     certficate: "on demand",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum!",
@@ -148,6 +155,7 @@ export const shopItems = [
     points: 0,
     dimension: { length: 5, width: 5, height: 5 },
     isCertified: true,
+    stock: 4,
     certficate: "on demand",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum!",
@@ -164,6 +172,7 @@ export const shopItems = [
     points: 0,
     dimension: { length: 5, width: 5, height: 5 },
     isCertified: true,
+    stock: 3,
     certficate: "on demand",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum!",
@@ -180,6 +189,7 @@ export const shopItems = [
     points: 0,
     dimension: { length: 5, width: 5, height: 5 },
     isCertified: true,
+    stock: 4,
     certficate: "on demand",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum!",
@@ -196,6 +206,7 @@ export const shopItems = [
     points: 0,
     dimension: { length: 5, width: 5, height: 5 },
     isCertified: true,
+    stock: 4,
     certficate: "on demand",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum!",
@@ -212,6 +223,7 @@ export const shopItems = [
     points: 200,
     dimension: { length: 5, width: 5, height: 5 },
     isCertified: true,
+    stock: 4,
     certficate: "on demand",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum!",
@@ -228,6 +240,7 @@ export const shopItems = [
     points: 1500,
     dimension: { length: 5, width: 5, height: 5 },
     isCertified: true,
+    stock: 4,
     certficate: "on demand",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum!",
@@ -244,6 +257,7 @@ export const shopItems = [
     points: 0,
     dimension: { length: 5, width: 5, height: 5 },
     isCertified: true,
+    stock: 4,
     certficate: "on demand",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum!",
@@ -260,6 +274,7 @@ export const shopItems = [
     points: 0,
     dimension: { length: 5, width: 5, height: 5 },
     isCertified: true,
+    stock: 4,
     certficate: "on demand",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum!",
@@ -276,6 +291,7 @@ export const shopItems = [
     points: 0,
     dimension: { length: 5, width: 5, height: 5 },
     isCertified: true,
+    stock: 4,
     certficate: "on demand",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum!",
@@ -292,6 +308,7 @@ export const shopItems = [
     points: 0,
     dimension: { length: 5, width: 5, height: 5 },
     isCertified: true,
+    stock: 4,
     certficate: "on demand",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At nulla officiis vel quo voluptas optio magni ipsum architecto, commodi quas cumque doloribus id? Nemo, suscipit! Qui placeat illum in sunt accusamus voluptatum necessitatibus, consequatur, dolorum et obcaecati eaque maxime omnis eveniet nulla ullam velit. Molestiae voluptatem dolorem maxime voluptates eum!",
