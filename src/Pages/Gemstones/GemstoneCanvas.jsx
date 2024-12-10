@@ -4,7 +4,7 @@ import GemstoneItems from './GemstoneItems'
 
 function GemstoneCanvas() {
   return (
-    <div className='font-primary py-10 px-5 lg:px-0'>
+    <div className='xl:p-4 font-primary w-full max-w-[1080px] mx-auto px-3 flex justify-between'>
       <GemstoneFilter />
       <GemstoneItems />
     </div>

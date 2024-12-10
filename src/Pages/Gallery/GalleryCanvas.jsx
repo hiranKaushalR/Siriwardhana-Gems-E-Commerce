@@ -8,18 +8,17 @@ function GalleryCanvas() {
 
   return (
     <div className="flex justify-center flex-wrap gap-10 w-full max-w-[1080px] mx-auto mb-10">
-      <div>
-        <Masonry columns={{ xs: 1, sm: 2, md: 3, lg: 5 }} spacing={1}>
+      <div className="relative flex flex-wrap gap-6 items-center  ">
+        
           {shopItems.map((item, index) => (
             <img
               src={item.image[0]}
               key={item.id}
               alt=""
-              className="object-cover"
-              style={{ height: heights[index % heights.length] }}
+              className="object-cover cursor-pointer w-[150px] h-[150px]"
             />
           ))}
-        </Masonry>
+        
       </div>
     </div>
   );
