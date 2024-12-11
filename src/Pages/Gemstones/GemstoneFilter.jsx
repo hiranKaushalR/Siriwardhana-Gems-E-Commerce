@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { cross } from "../../assets";
+import { cross, filter } from "../../assets";
 import { SwipeableDrawer } from "@mui/material";
 
 function GemstoneFilter() {
@@ -28,13 +28,11 @@ function GemstoneFilter() {
 
   return (
     <div>
-      <p onClick={toggleFilterBarDrawer(true)} className="sm:hidden">
-        Filter
-      </p>
+      <img src={filter} onClick={toggleFilterBarDrawer(true)} className="sm:hidden my-4" alt="" />
       <div className="hidden sm:flex flex-col rounded-md my-4 border-r-2 w-[180px] py-4">
         <div>
-          <h1 className="text-center my-2">Category</h1>
-          <div className="flex flex-wrap gap-2 text-[13px] px-[4px]">
+          <h1 className="text-center my-4">Category</h1>
+          <div className="flex flex-wrap gap-4 text-[13px] px-[4px]">
             {categories.map((category) => (
               <p
                 key={category}
@@ -59,8 +57,8 @@ function GemstoneFilter() {
         </div>
 
         <div>
-          <h1 className="text-center my-2">Price</h1>
-          <div className="flex flex-wrap gap-2 text-[13px] px-[4px]">
+          <h1 className="text-center my-4">Price</h1>
+          <div className="flex flex-col items-center gap-4 text-[13px] px-[4px]">
             {prices.map((price) => (
               <p
                 key={price}
@@ -85,8 +83,8 @@ function GemstoneFilter() {
         </div>
 
         <div>
-          <h1 className="text-center my-2">Stocks</h1>
-          <div className="flex flex-wrap gap-2 text-[13px] px-[4px]">
+          <h1 className="text-center my-4">Stocks</h1>
+          <div className="flex flex-wrap flex-col items-center gap-4 text-[13px] px-[4px]">
             {stocks.map((stock) => (
               <p
                 key={stock}
@@ -118,8 +116,8 @@ function GemstoneFilter() {
         anchor="bottom" // This sets the drawer to slide in from the bottom
       >
         <div>
-          <h1 className="text-center my-2">Category</h1>
-          <div className="flex flex-wrap gap-2 text-[13px] px-[4px]">
+          <h1 className="text-center my-2 text-lg font-bold">Category</h1>
+          <div className="flex flex-wrap gap-4 px-[4px]">
             {categories.map((category) => (
               <p
                 key={category}
@@ -143,9 +141,9 @@ function GemstoneFilter() {
           </div>
         </div>
 
-        <div>
-          <h1 className="text-center my-2">Price</h1>
-          <div className="flex flex-wrap gap-2 text-[13px] px-[4px]">
+        <div className="my-3">
+          <h1 className="text-center my-2 text-lg font-bold">Price</h1>
+          <div className="flex flex-wrap gap-4 px-[4px]">
             {prices.map((price) => (
               <p
                 key={price}
@@ -169,9 +167,9 @@ function GemstoneFilter() {
           </div>
         </div>
 
-        <div>
-          <h1 className="text-center my-2">Stocks</h1>
-          <div className="flex flex-wrap gap-2 text-[13px] px-[4px]">
+        <div className="mb-6">
+          <h1 className="text-center my-2 text-lg font-bold">Stocks</h1>
+          <div className="flex flex-wrap gap-4 px-[4px]">
             {stocks.map((stock) => (
               <p
                 key={stock}

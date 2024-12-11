@@ -17,6 +17,7 @@ import Return from "./return.svg";
 import Sale from "../assets/other-images/sale.png";
 import backArrow from "../assets/other-images/back-arrow.svg";
 import cross from "../assets/other-images/cross.svg";
+import filter from "../assets/other-images/filter.svg";
 import gemCertificate from "../assets/other-images/gem-certificate.png";
 
 export {
@@ -38,5 +39,6 @@ export {
   Sale,
   backArrow,
   cross,
+  filter,
   gemCertificate
 };
