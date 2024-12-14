@@ -28,7 +28,13 @@ function GemstoneFilter() {
 
   return (
     <div>
-      <img src={filter} onClick={toggleFilterBarDrawer(true)} className="sm:hidden my-4" alt="" />
+      <div
+        className="flex items-center gap-2 sm:hidden my-4"
+        onClick={toggleFilterBarDrawer(true)}
+      >
+        <img src={filter} alt="" />
+        <p>Filter</p>
+      </div>{" "}
       <div className="hidden sm:flex flex-col rounded-md my-4 border-r-2 w-[180px] py-4">
         <div>
           <h1 className="text-center my-4">Category</h1>
@@ -108,7 +114,6 @@ function GemstoneFilter() {
           </div>
         </div>
       </div>
-
       <SwipeableDrawer
         className="sm:hidden"
         open={isFilterBarOpen}
