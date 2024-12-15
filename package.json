@@ -14,7 +14,7 @@
     "@mui/material": "^5.16.5",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
     "@tabler/icons-react": "^3.9.0",
-    "flowbite-react": "^0.10.1",
+    "flowbite-react": "^0.10.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-pro-sidebar": "^1.1.0",

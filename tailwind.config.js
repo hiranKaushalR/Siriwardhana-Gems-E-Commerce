@@ -1,8 +1,12 @@
-const flowbite = require("flowbite-react/tailwind");
+import flowbite from 'flowbite-react/tailwind';
 
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}", flowbite.content()],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    flowbite.content(), // Assuming flowbite has a 'content' method
+  ],
   theme: {
     extend: {
       fontFamily: {
@@ -23,8 +27,9 @@ export default {
         xsm: "375px",
       },
       boxShadow: {
-        "3xl": "10px -10px 20px 5px rgba(0, 0, 0, 0.3)",}
+        "3xl": "10px -10px 20px 5px rgba(0, 0, 0, 0.3)",
+      },
     },
   },
-  plugins: [flowbite.plugin()],
+  plugins: [flowbite.plugin()], // Assuming flowbite has a 'plugin' method
 };
