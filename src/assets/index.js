@@ -19,6 +19,9 @@ import backArrow from "../assets/other-images/back-arrow.svg";
 import cross from "../assets/other-images/cross.svg";
 import filter from "../assets/other-images/filter.svg";
 import gemCertificate from "../assets/other-images/gem-certificate.png";
+import BlackPhone from "../assets/other-images/phone_black.svg";
+import BlackMail from "../assets/other-images/mail_black.svg";
+import ContactDetails from "./other-images/contact-details.png";
 
 export {
   logo,
@@ -40,5 +43,8 @@ export {
   backArrow,
   cross,
   filter,
-  gemCertificate
+  gemCertificate,
+  BlackPhone, 
+  BlackMail,
+  ContactDetails
 };

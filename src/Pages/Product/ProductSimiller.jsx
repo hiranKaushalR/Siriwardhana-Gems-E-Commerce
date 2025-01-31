@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { gemCertificate } from "../../assets";
+import { Carousel } from "flowbite-react";
 
 function ProductSimiller(props) {
   const { shopItems, product } = props;
@@ -35,27 +36,33 @@ function ProductSimiller(props) {
           <div
             key={item.id}
             onClick={() => console.log(`Selected: ${item.image}`)}
-            className="shadow-2xl bg-gradient-to-bl from-[#efdfbb] via-[#F0EAD6] to-[#f9f9f9] from-20% hover:from-40% w-[220px] rounded-md group transition duration-300 ease-in-out" // Add group class here
+            className="shadow-2xl bg-gradient-to-bl bg-[#e9b657] from-20% hover:from-40% w-[280px] h-[380px] rounded-md group transition duration-300 ease-in-out" // Add group class here
           >
-            <div className="relative transition duration-300 ease-in-out group-hover:scale-[1.01]">
-              <img
-                src={item.image[0]}
-                alt={item.name}
-                className="object-cover w-[98%] h-[140px] mx-auto p-[6px] rounded-xl transition duration-300 ease-in-out group-hover:scale-[1.02]"
-              />
-              <p className="absolute bottom-3 left-3 text-white bg-black text-[10px] py-[2px] px-1 rounded-md font-semibold pointer-events-none">
-                {item.type}
-              </p>
-              {item.isCertified && (
+            <div className="relative w-[100%] h-[170px] transition duration-300 ease-in-out group-hover:scale-[1.01]">
+              <div className="relative transition duration-300 ease-in-out group-hover:scale-[1.01]">
                 <img
-                  src={gemCertificate}
-                  alt="Certified"
-                  className="w-5 h-5 absolute top-3 right-3 pointer-events-none"
+                  src={item.image[0]}
+                  alt={item.name}
+                  className="object-cover w-[98%] h-[140px] mx-auto p-[6px] rounded-xl transition duration-300 ease-in-out group-hover:scale-[1.02]"
                 />
-              )}
+                <p className="absolute bottom-3 left-3 text-white bg-black text-[10px] py-[2px] px-1 rounded-md font-semibold pointer-events-none">
+                  {item.type}
+                </p>
+                {item.isCertified && (
+                  <img
+                    src={gemCertificate}
+                    alt="Certified"
+                    className="w-5 h-5 absolute top-3 right-3 pointer-events-none"
+                  />
+                )}
+              </div>
             </div>
-            <div className="text-sm m-2 flex flex-col gap-3">
-              <p>{item.name}</p>
+
+            <div className="text-sm m-1 flex flex-col gap-1">
+              <p className="font-semibold text-lg">{item.name}</p>
+              <p className="text-[12px] text-justify">
+                {item.description.split(" ").slice(0, 20).join(" ")} ...
+              </p>
               <p>{item.price}.00 LKR</p>
               <p
                 className={`${
