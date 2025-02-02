@@ -4,6 +4,11 @@ import Instagram from "./instagram.svg";
 import Twitter from "./twitter.svg";
 import Whatsapp from "./whatsapp.svg";
 
+import FacebookBlack from "./facebook-black.svg";
+import InstagramBlack from "./instagram-black.svg";
+import TwitterBlack from "./twitter-black.svg";
+import WhatsappBlack from "./whatsapp-black.svg";
+
 import About from "./about.svg";
 import Contact from "./contact.svg";
 import Diamond from "./diamond.svg";
@@ -29,6 +34,10 @@ export {
   Instagram,
   Twitter,
   Whatsapp,
+  FacebookBlack,
+  InstagramBlack,
+  TwitterBlack,
+  WhatsappBlack,
   About,
   Contact,
   Diamond,
@@ -44,7 +53,7 @@ export {
   cross,
   filter,
   gemCertificate,
-  BlackPhone, 
+  BlackPhone,
   BlackMail,
-  ContactDetails
+  ContactDetails,
 };

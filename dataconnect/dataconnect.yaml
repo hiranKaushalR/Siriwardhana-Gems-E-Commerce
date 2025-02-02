@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "siriwardhana-gems-e-commerce"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "siriwardhana-gems-e-commerce-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
