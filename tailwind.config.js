@@ -22,6 +22,7 @@ export default {
         accent: "#ccffff",
         primaryText: "#2c3e50",
         secondaryText: "#d4af37",
+        card: "#F5F5F5",
       },
       screens: {
         xsm: "375px",

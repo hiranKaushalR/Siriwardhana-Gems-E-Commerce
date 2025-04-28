@@ -245,7 +245,7 @@ function ContactCanvas() {
             </div>
             <TextInput
               color={colorsForNumber2}
-              type="number"
+              type="text"
               id="number2"
               placeholder="0704769638"
               value={contactDetails.number2}
@@ -261,7 +261,7 @@ function ContactCanvas() {
             </div>
             <TextInput
               color={colorsForWhatsapp}
-              type="number"
+              type="text"
               id="whatsapp"
               placeholder="0704769638"
               value={contactDetails.whatsapp}

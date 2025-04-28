@@ -6,7 +6,7 @@ import { IconCaretDownFilled } from "@tabler/icons-react";
 function HomeGalleryAbout() {
   const { shopItems } = useContext(ShopContext);
 
-  const heights = [90, 50, 100, 160, 90, 100, 150, 60, 50, 80, 60, 40];
+  const heights = [90, 50, 100, 160, 90, 100, 150, 60, 50, 80, 60, 20];
 
   return (
     <div className="flex justify-center lg:justify-between sm:text-left  items-start flex-wrap md:gap-10 w-full max-w-[1080px] mx-auto my-20">
