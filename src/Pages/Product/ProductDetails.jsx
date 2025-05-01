@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { gemCertificate } from "../../assets";
+import ProductPurchase from "./ProductPurchase";
 
 function ProductDetails(props) {
   const { product, handleSelectedImage, setHandleSelectedImage } = props;
+  const [isPurchaseTabOpen, setIspurchaseTabOpen] = useState(false);
 
   function getSelectedImage(index) {
     setHandleSelectedImage(index);
   }
+  
 
   return (
     <div className="flex flex-col md:flex-row gap-3 my-8 mx-1">
@@ -108,9 +111,19 @@ function ProductDetails(props) {
           <p className="text-[12px] text-justify"> {product.description}</p>
         </div>
         <div>
-          <button className="bg-secondaryText text-white py-1 px-4 rounded-md font-bold tracking-wider">
+          <button
+            className="bg-secondaryText text-white py-1 px-4 rounded-md font-bold tracking-wider"
+            onClick={() => setIspurchaseTabOpen(true)}
+          >
             Go To Purchase
           </button>
+          {isPurchaseTabOpen && (
+            <ProductPurchase
+              product={product}
+              isPurchaseTabOpen={isPurchaseTabOpen}
+              setIspurchaseTabOpen={setIspurchaseTabOpen}
+            />
+          )}
         </div>
       </div>
     </div>

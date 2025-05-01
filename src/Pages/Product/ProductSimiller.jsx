@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { gemCertificate } from "../../assets";
-import { Carousel } from "flowbite-react";
+
 
 function ProductSimiller(props) {
   const { shopItems, product } = props;
@@ -29,7 +29,7 @@ function ProductSimiller(props) {
         <h1>Not sure about this one?</h1>
         <h1>Check out our other similar products:</h1>
       </div>
-      <div className="flex md:justify-between justify-center gap-4 overflow-x-auto">
+      <div className="flex md:justify-between justify-start gap-4 overflow-x-auto">
         {displayItems.map((item) => (
           <div
             key={item.id}
