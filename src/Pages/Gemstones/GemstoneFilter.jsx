@@ -118,7 +118,7 @@ function GemstoneFilter() {
         className="sm:hidden"
         open={isFilterBarOpen}
         onClose={toggleFilterBarDrawer(false)}
-        anchor="bottom" // This sets the drawer to slide in from the bottom
+        anchor="bottom" 
       >
         <div>
           <h1 className="text-center my-2 text-lg font-bold">Category</h1>
